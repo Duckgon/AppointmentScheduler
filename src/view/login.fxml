@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <TextField fx:id="username" layoutX="137.0" layoutY="98.0" />
+      <PasswordField fx:id="password" layoutX="137.0" layoutY="154.0" />
+      <Label fx:id="usernameLbl" layoutX="32.0" layoutY="102.0" text="Username:" />
+      <Label fx:id="passwordLbl" layoutX="34.0" layoutY="158.0" text="Password:" />
+      <Button fx:id="login" layoutX="229.0" layoutY="214.0" mnemonicParsing="false" onAction="#onLogin" text="Login" />
+      <Label fx:id="loginLbl" layoutX="22.0" layoutY="26.0" text="Login">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font></Label>
+      <Label fx:id="timezoneLbl" alignment="CENTER_RIGHT" layoutX="7.0" layoutY="370.0" prefHeight="17.0" prefWidth="84.0" text="Timezone:" />
+      <Label fx:id="error" layoutX="35.0" layoutY="273.0" textFill="RED" />
+      <Label fx:id="timezone" layoutX="93.0" layoutY="370.0" prefHeight="17.0" prefWidth="213.0" text="Timezone" textFill="#747474" />
+   </children>
+</AnchorPane>

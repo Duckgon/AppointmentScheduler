@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="604.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UpdateAppointmentController">
+
+   <children>
+      <Label fx:id="timezone" layoutX="73.0" layoutY="574.0" prefHeight="17.0" prefWidth="506.0" text="Timezone" textFill="#747474" />
+      <Label layoutX="11.0" layoutY="574.0" text="Timezone:" />
+      <Label layoutX="31.0" layoutY="49.0" text="Add Appointment">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="115.0" text="Appointment ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="170.0" text="Customer ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="143.0" text="User ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="200.0" text="Title">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="228.0" text="Description">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="256.0" text="Location">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="287.0" text="Type">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="405.0" text="Start">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Date" layoutX="38.0" layoutY="359.0" text="Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idTxt" layoutX="202.0" layoutY="117.0" />
+      <TextField fx:id="customerIdTxt" layoutX="202.0" layoutY="172.0" />
+      <TextField fx:id="userIdTxt" layoutX="202.0" layoutY="145.0" />
+      <TextField fx:id="titleTxt" layoutX="202.0" layoutY="200.0" />
+      <TextField fx:id="descriptionTxt" layoutX="202.0" layoutY="230.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="locationTxt" layoutX="202.0" layoutY="258.0" />
+      <TextField fx:id="typeTxt" layoutX="202.0" layoutY="289.0" />
+      <Label layoutX="286.0" layoutY="405.0" text="End">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="save" layoutX="361.0" layoutY="450.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="53.0" text="Save" />
+      <Button fx:id="cancel" layoutX="453.0" layoutY="450.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="25.0" prefWidth="53.0" text="Cancel" />
+      <Label fx:id="error" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="20.0" layoutY="544.0" prefHeight="30.0" prefWidth="549.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="datefield" layoutX="199.0" layoutY="361.0" />
+      <Spinner fx:id="startH" layoutX="84.0" layoutY="407.0" prefHeight="25.0" prefWidth="65.0" />
+      <Spinner fx:id="startM" layoutX="149.0" layoutY="407.0" prefHeight="25.0" prefWidth="65.0" />
+      <Spinner fx:id="endM" layoutX="388.0" layoutY="407.0" prefHeight="25.0" prefWidth="65.0" />
+      <Spinner fx:id="endH" layoutX="323.0" layoutY="407.0" prefHeight="25.0" prefWidth="65.0" />
+      <Label layoutX="36.0" layoutY="315.0" text="Contact">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="contactCombo" layoutX="202.0" layoutY="317.0" prefWidth="150.0" />
+
+   </children>
+</AnchorPane>

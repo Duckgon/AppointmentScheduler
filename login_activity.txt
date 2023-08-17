@@ -1,0 +1,5 @@
+
+User test successfully logged in at 2023-04-30 14:39:05.6345266 (Timezone: America/Chicago)
+User admin successfully logged in at 2023-04-30 14:39:13.8998552 (Timezone: America/Chicago)
+User sss gave invalid log-in at 2023-04-30 14:39:22.6746194 (Timezone: America/Chicago)
+User test successfully logged in at 2023-04-30 16:02:05.5597009 (Timezone: America/Chicago)
